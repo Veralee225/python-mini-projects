@@ -2,6 +2,34 @@
 
 I'm adding the practice coding exercise from 100 Days of Code: The Complete Python Bootcamp 2022
 
+<p align="center"> Python Mini Projects
+    <br> 
+</p>
+
+## 📝 Table of Contents
+
+- [Usage](#usage)
+- [Day1](### Day 1)
+- [Day2](### Day 2)
+
+# Usage
+
+Following these instructions will give you a copy of this project and you can run it on your local machine.
+
+### Prerequisites 
+
+Python3
+
+### Cloning the repository
+
+To clone this project use the folllowing command -
+`git clone https://github.com/Veralee225/python-mini-projects.git`
+
+`cd python-mini-projects`
+
+To access each of the files, example from day 1
+`python3 1-day.py
+
 ### Day 1
 
 [Band-name-generator](https://github.com/Veralee225/python-mini-projects/blob/main/1-day.py)
