@@ -9,14 +9,14 @@ I'm adding the practice coding exercise from 100 Days of Code: The Complete Pyth
 ## 📝 Table of Contents
 
 - [Usage](#usage)
-- [Day1](### Day 1)
-- [Day2](### Day 2)
+- [Day1](###Day 1)
+- [Day2](###Day 2)
 
 # Usage
 
 Following these instructions will give you a copy of this project and you can run it on your local machine.
 
-### Prerequisites 
+### Prerequisites
 
 Python3
 
@@ -36,8 +36,8 @@ To access each of the files, example from day 1
 
 ### Day 2
 
-- BMI
-- Life in Weeks
+- [BMI](https://github.com/Veralee225/python-mini-projects/blob/main/bmi.py)
+- [Life in Weeks](https://github.com/Veralee225/python-mini-projects/blob/main/2-day.py)
 
 ### Tip Calculator
 
@@ -68,3 +68,5 @@ To access each of the files, example from day 1
 
 - How to round a number to 2 decimal places in Python
 - How to limit a float to two decimal places in Python
+
+[Tip calculator](https://github.com/Veralee225/python-mini-projects/blob/main/tip-calculator.py)
