@@ -70,3 +70,8 @@ To access each of the files, example from day 1
 - How to limit a float to two decimal places in Python
 
 [Tip calculator](https://github.com/Veralee225/python-mini-projects/blob/main/tip-calculator.py)
+
+### Day 3
+
+- Pizza order practice
+- love_calculator
