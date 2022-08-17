@@ -39,3 +39,7 @@ Have a think about how you might write your program to make a player's answers l
 # Solution
 
 [https://replit.com/@appbrewery/treasure-island-end#main.py](https://replit.com/@appbrewery/treasure-island-end)
+
+### Hosted code
+
+[Hosted on replit](https://replit.com/@Veralee225/finding-food?v=1)
