@@ -24,13 +24,13 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 print("Welcome to decision making.")
-print("Your mission is to find something to eat or starve to death.") 
+print("Your mission is to find something to eat or you starve to death.") 
 
 #https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
 
 #Write your code below this line 
 
-direction = input('You\'re standing at the edge of your door, caught between leaving you house or staying in. Where do you want to go? Type "left" or "right" \n')
+direction = input('You are standing at the edge of your door, caught between leaving you house or staying in. Where do you want to go? Type "left" or "right" \n')
 
 #writing the conditional statements. New knowledge, if you don't want python to ask you
 #to assign a variable to left or any other thing listed, wrap it in quotation marks. As seen below.
@@ -43,12 +43,12 @@ if direction == "left":
         if choice == "brown":
             print("It's a bar. Game Over.")
         elif choice == "ash":
-            print("You pizza! You Win!")
+            print("You found pizza! You Win!")
         elif choice == "black":
             print("Your entered a gym. Game Over.")
         else:
             print("You chose a door that doesn't exist. Game Over.")
     else:
-        print("You never find food. Game Over.")
+        print("You will never find food. Game Over.")
 else:
     print("You never left the doooor! It was all a dream. Game Over!")
