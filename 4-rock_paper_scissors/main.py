@@ -31,10 +31,14 @@ game_images = [rock, paper, scissors]
 
 print("Welcome to rock paper scissors")
 
-user_action = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors")
+user_action = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 
-#I used random.randint(0,2) because we are determining the actions
+print(game_images[user_action])
+
+#I used random.randint(0,2) because we are determining the actions for three inputs
 computer_action = random.randint(0, 2)
+print("Computer chose:")
+print(game_images[computer_action])
 
 #for computer action, you can also use random.choice(possible_actions)
 possible_actions = ["rock", "paper", "scissors"]
@@ -63,3 +67,7 @@ elif user_action == "scissors":
         print("scissors cuts paper! You win!")
     else:
         print("Rock smashes scissors! You lose!")
+elif computer_action > user_action:
+    print("You lose")
+elif user_action > computer_action:
+    print("You win!")
