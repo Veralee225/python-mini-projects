@@ -38,6 +38,6 @@ Remember your answer should start from 1 and go up to and including 100.
 ## Test Your Code
 Check your code is doing what it is supposed to. When you're happy with your code, click submit to check your solution.
 
-(Solution)[https://repl.it/@appbrewery/day-5-4-solution]
+[Solution](https://repl.it/@appbrewery/day-5-4-solution)
 
-(Alternatively:)[https://en.wikipedia.org/wiki/Fizz_buzz]
+[Alternatively:](https://en.wikipedia.org/wiki/Fizz_buzz)
