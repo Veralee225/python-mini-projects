@@ -1,13 +1,18 @@
+#!/usr/bin/python3
 import random
-import hangman_art import stages, logo
+from hangman_art import stages, logo
 from hangman_words import word_list
+#replit causes an error because it isn't a module
+# but it works on the Replit platform
 from replit import clear
 
 print(logo)
 
 game_is_finished = False 
 lives = len(stages) - 1
-word_list = ["happy", "frustration", "giving"]
+
+# previous words used to test
+#word_list = ["happy", "frustration", "giving"]
 
 # randomly choose a word from the word_list and assign
 # it to a varibale called chosen_word
