@@ -9,22 +9,26 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
-def encrypt(plain_text, shit_amount):
-
- cipher_text = ""
-
-for letter in plain_text:
+#decrypt function
+def encrypt(plain_text, shift_amount):
+  cipher_text = ""
+  for letter in plain_text:
     position = alphabet.index(letter)
     new_position = position + shift_amount
-    new_letter = alphabet[new_position]
-    cipher_text += new_letter
-print(f"The encoded text is {cipher_text}")
+    cipher_text += alphabet[new_position]
+  print(f"The encoded text is {cipher_text}")
 
-# calling the encrypt function
-encrypt(plain_text, shift_amount=shift)
+#section for decrypt function
+def decrypt(cipher_text, shift_amount):
+    plain_text = ""
+    for letter in cipher_text:
+        position = alphabet.index(letter)
+        new_position = position - shift_amount
+        plain_text += alphabet[new_position]
+print(f"The decoded text is {plain_text}")
 
-def decrypt():
-    text = 'edcba'
-    shift = '5'
-    
 # To check if the user wants to encrypt or decrypt the message
+if direction == "encode":
+    encrypt(plain_text=text, shift_amount=shift)
+elif direction == "decode":
+    decrypt(cipher_text=text, shift_amount=shift)
