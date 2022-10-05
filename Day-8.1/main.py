@@ -11,7 +11,7 @@ shift = int(input("Type the shift number:\n"))
 
 def encrypt(plain_text, shit_amount):
 
-cipher_text = ""
+ cipher_text = ""
 
 for letter in plain_text:
     position = alphabet.index(letter)

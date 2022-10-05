@@ -12,6 +12,12 @@
 
 ### Part 2 - Decryption
 
+- Create a different function called 'decrypt' that takes the 'text' and 'shift' as inputs.
+
+- Inside the 'decrypt' function, shift each letter of the 'text' *backwards* in the alphabet by the shift amount and print the decrypted text. 
+
+- Check if the user wanted to encrypt or decrypt the message by checking the 'direction' variable. Then call the correct function based on that 'drection' variable. You should be able
+
 ### Part 3 - Reorganizing
 
 ### Part 4 - User Experience Improvements
