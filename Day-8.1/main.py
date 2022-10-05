@@ -22,3 +22,9 @@ print(f"The encoded text is {cipher_text}")
 
 # calling the encrypt function
 encrypt(plain_text, shift_amount=shift)
+
+def decrypt():
+    text = 'edcba'
+    shift = '5'
+    
+# To check if the user wants to encrypt or decrypt the message
