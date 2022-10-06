@@ -20,7 +20,17 @@
 
 ### Part 3 - Reorganizing
 
+- Combine the encrypt() and decrypt() functions into a single function called caesar(). 
+
 ### Part 4 - User Experience Improvements
+
+- Import and print the logo from art.py when the program starts.
+
+- What if the user enters a shift that is greater than the number of letters in the alphabet?
+
+- What happens if the user enters a number/symbol/space?
+
+- Can you figure out a way to ask the user if they want to restart the cipher program?
 
 ### Resources
 
