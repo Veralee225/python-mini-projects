@@ -12,7 +12,7 @@ travel_log = [
 ]
 
 #TODO: Write the function that will allow new countries
-#to be added to the travel_log. 👇
+#to be added to the travel_log.
 
 def add_new_country(name, visit_count, cities_visited):
   new_country = {}
