@@ -19,13 +19,13 @@ for bidder in bidding_record:
   print(f"The winner is {winner} with a bid of ${highest_bid}")
 
 while not bid_end:
+  name = input("What is your name?: ")
+  price = int(input("What is your bid?: $"))
+  total_bids[name] = price
+  should_continue = input("Are there any other bidders? Type 'yes or 'no'.\n")
 
-user_name = int(input("What is your name"))
-
-bid_price = ("What is your bidding price? ")
-
-total_bid = {
-    "Mathew": "100",
-    "zen": "200",
-    "Cynthia": 50
-}
+  if should_continue == "no":
+    bid_end = True
+    highest_bidder(bid_end)
+  elif should_continue == "yes":
+    clear()
