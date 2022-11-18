@@ -1,5 +1,5 @@
-from art import logo
 from replit import clear
+from art import logo
 print(logo)
 
 total_bids = {}
