@@ -1,4 +1,4 @@
-from replit import clear
+# from replit import clear
 from art import logo
 print(logo)
 
@@ -24,7 +24,8 @@ symbols = {
 }
 
 def calculator():
-    
+    print(logo)
+
 num1 = float(input("What's the first number?: "))
 
 for s in symbols:
