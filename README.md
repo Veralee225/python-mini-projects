@@ -5,12 +5,15 @@ I'm adding the practice coding exercise from 100 Days of Code: The Complete Pyth
 <p align="center"> Python Mini Projects
     <br> 
 </p>
+### Day 3
 
+- [Pizza order practice](https://github.com/Veralee225/python-mini-projects/blob/main/pizza-order.py)
+- [love_calculator](https://github.com/Veralee225/python-mini-projects/blob/main/love-calculator.py)
 ## 📝 Table of Contents
 
 - [Usage](#usage)
-- [Day1](###Day 1)
-- [Day2](###Day 2)
+- [Day1](###Day%201)
+- [Day2](###Day%202)
 
 # Usage
 
